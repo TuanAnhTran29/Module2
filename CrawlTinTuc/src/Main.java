@@ -18,7 +18,7 @@ public class Main {
 
             content.replaceAll("\\n+", "");
 
-            Pattern pattern= Pattern.compile("title=\"(.*?)\"><div");
+            Pattern pattern= Pattern.compile("title=\"(.*?)\">(.*?)</a>");
             Matcher matcher= pattern.matcher(content);
 
             while (matcher.find()){
