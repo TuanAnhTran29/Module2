@@ -4,6 +4,7 @@ public class Cylinder extends Circle {
     public Cylinder(){}
 
     public Cylinder(double height) {
+        super();
         this.height = height;
     }
 
